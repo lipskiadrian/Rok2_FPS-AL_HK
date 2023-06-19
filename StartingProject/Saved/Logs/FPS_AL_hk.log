@@ -1651,3 +1651,145 @@ MatineeActor1
 [2023.06.19-19.09.51:504][774]LogSavePackage: Moving '../../../../../../repo/Rok2_FPS-AL_HK/StartingProject/Saved/Demo_SceneE75B47CE4FBE092595A2D2AF0CCFD95D.tmp' to '../../../../../../repo/Rok2_FPS-AL_HK/StartingProject/Content/ModularBuildingSet/Demo_Scene.umap'
 [2023.06.19-19.09.51:584][774]AssetCheck: New page: Asset Save: Demo_Scene
 [2023.06.19-19.09.51:584][774]LogContentValidation: Display: Validating World /Game/ModularBuildingSet/Demo_Scene.Demo_Scene
+[2023.06.19-19.15.24:485][949]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.06.19-19.15.24:497][949]LogContentBrowser: Creating deferred item: NewFolder
+[2023.06.19-19.15.24:502][950]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.06.19-19.15.26:457][120]LogContentBrowser: Attempting asset rename: NewFolder -> Class
+[2023.06.19-19.15.26:457][120]LogContentBrowser: End creating deferred item NewFolder
+[2023.06.19-19.15.31:095][479]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.19-19.16.44:401][479]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.06.19-19.16.44:408][479]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.06.19-19.16.44:411][479]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.06.19-19.16.44:426][481]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.06.19-19.16.50:993][ 55]LogContentBrowser: Attempting asset rename: NewBlueprint -> FPS_CHARACTER
+[2023.06.19-19.16.51:060][ 55]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.06.19-19.16.56:033][479]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Class/FPS_CHARACTER.FPS_CHARACTER
+[2023.06.19-19.16.56:043][479]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.19-19.16.58:074][479]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.06.19-19.16.58:074][479]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.000945s (0.040637s overbudget)
+[2023.06.19-19.16.58:241][479]LogViewport: Scene viewport resized to 1040x646, mode Windowed.
+[2023.06.19-19.16.58:672][488]LogMeshUtilities: Finished distance field build in 1.0s - 126x126x21 sparse distance field, 0.6Mb total, 0.0Mb always loaded, 100% occupied, 4 triangles, PhAT_FloorBox
+[2023.06.19-19.17.00:805][592]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.06.19-19.17.26:652][361]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.06.19-19.17.31:932][662]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.06.19-19.17.37:286][924]LogTexture: Display: Building textures: /Game/Assets/Characters/Arms/Arms_Textures_And_Mats/Textures/4K/T_01_clothes_SpecularSmoothness.T_01_clothes_SpecularSmoothness (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2023.06.19-19.17.37:286][924]LogMaterial: Display: Missing cached shadermap for M_Cloths_4K in PCD3D_SM5, Default, SM5 (DDC key hash: 89B038D190EBC524C5BE521F05ED91A4148EC190), compiling. 
+[2023.06.19-19.17.37:337][924]LogMaterial: Display: Missing cached shadermap for M_Gloves_4K in PCD3D_SM5, Default, SM5 (DDC key hash: 6BE26F03B0A21087963A15D9D4AB523F6B043029), compiling. 
+[2023.06.19-19.17.37:377][924]LogMaterial: Display: Missing cached shadermap for M_Hands_Tanned_4K in PCD3D_SM5, Default, SM5 (DDC key hash: F1CDD8560A0558CF8D424AE96F8F1F521858BAD0), compiling. 
+[2023.06.19-19.17.37:556][924]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (Mesh_Arms) ...
+[2023.06.19-19.17.38:555][924]LogTexture: Display: Building textures: /Game/Assets/Characters/Arms/Arms_Textures_And_Mats/Textures/4K/T_01_gloves_Camo_AlbedoTransparency.T_01_gloves_Camo_AlbedoTransparency (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2023.06.19-19.17.38:555][924]LogTexture: Display: Building textures: /Game/Assets/Characters/Arms/Arms_Textures_And_Mats/Textures/4K/T_01_Camo_clothes_AlbedoTransparency.T_01_Camo_clothes_AlbedoTransparency (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2023.06.19-19.17.38:555][924]LogTexture: Display: Building textures: /Game/Assets/Characters/Arms/Arms_Textures_And_Mats/Textures/4K/T_01_gloves_Normal.T_01_gloves_Normal (TFO_BC5, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2023.06.19-19.17.38:555][924]LogTexture: Display: Building textures: /Game/Assets/Characters/Arms/Arms_Textures_And_Mats/Textures/4K/T_01_clothes_Normal.T_01_clothes_Normal (TFO_BC5, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2023.06.19-19.17.39:867][924]LogSkeletalMesh: Building Skeletal Mesh Mesh_Arms...
+[2023.06.19-19.17.40:259][924]LogSkeletalMesh: Built Skeletal Mesh [0.24s] /Game/Assets/Characters/Arms/Mesh/Mesh_Arms.Mesh_Arms
+[2023.06.19-19.17.40:259][924]LogTexture: Display: Building textures: /Game/Assets/Characters/Arms/Arms_Textures_And_Mats/Textures/4K/T_01_gloves_SpecularSmoothness.T_01_gloves_SpecularSmoothness (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2023.06.19-19.17.40:259][924]LogTexture: Display: Building textures: /Game/Assets/Characters/Arms/Arms_Textures_And_Mats/Textures/4K/T_01_hands_SpecularSmoothness.T_01_hands_SpecularSmoothness (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2023.06.19-19.17.43:362][924]LogTexture: Display: Building textures: /Game/Assets/Characters/Arms/Arms_Textures_And_Mats/Textures/4K/T_01_hands_Albedo_Grey.T_01_hands_Albedo_Grey (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2023.06.19-19.17.43:565][924]LogTexture: Display: Building textures: /Game/Assets/Characters/Arms/Arms_Textures_And_Mats/Textures/4K/T_01_hands_Normal.T_01_hands_Normal (TFO_BC5, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2023.06.19-19.17.50:255][ 77]LogShaderCompilers: Display: ================================================
+[2023.06.19-19.17.50:255][ 77]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.19-19.17.50:255][ 77]LogShaderCompilers: Display: Total job queries 676, among them cache hits 1 (0.15%)
+[2023.06.19-19.17.50:255][ 77]LogShaderCompilers: Display: Tracking 589 distinct input hashes that result in 355 distinct outputs (60.27%)
+[2023.06.19-19.17.50:255][ 77]LogShaderCompilers: Display: RAM used: 0.98 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.12%
+[2023.06.19-19.17.50:255][ 77]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.19-19.17.50:255][ 77]LogShaderCompilers: Display: Shaders Compiled: 675
+[2023.06.19-19.17.50:255][ 77]LogShaderCompilers: Display: Jobs assigned 660, completed 589 (89.24%)
+[2023.06.19-19.17.50:255][ 77]LogShaderCompilers: Display: Average time worker was idle: 47.91 s
+[2023.06.19-19.17.50:267][ 77]LogShaderCompilers: Display: Time job spent in pending queue: average 37.99 s, longest 90.28 s
+[2023.06.19-19.17.50:267][ 77]LogShaderCompilers: Display: Job execution time: average 11.01 s, max 39.29 s
+[2023.06.19-19.17.50:267][ 77]LogShaderCompilers: Display: Job life time (pending + execution): average 53.55 s, max 90.99
+[2023.06.19-19.17.50:267][ 77]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 104.11 s
+[2023.06.19-19.17.50:267][ 77]LogShaderCompilers: Display: Jobs were issued in 114 batches (only local compilation was used), average 5.79 jobs/batch
+[2023.06.19-19.17.50:267][ 77]LogShaderCompilers: Display: Average processing rate: 5.66 jobs/sec
+[2023.06.19-19.17.50:267][ 77]LogShaderCompilers: Display: Effective parallelization: 6.91 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.06.19-19.17.50:267][ 77]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.06.19-19.17.50:267][ 77]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    9 times, average 2.05 sec, max 6.20 sec, min 1.05 sec)
+[2023.06.19-19.17.50:267][ 77]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    9 times, average 1.81 sec, max 5.80 sec, min 1.09 sec)
+[2023.06.19-19.17.50:267][ 77]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight (compiled    9 times, average 1.78 sec, max 5.95 sec, min 1.13 sec)
+[2023.06.19-19.17.50:267][ 77]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    9 times, average 1.74 sec, max 5.85 sec, min 1.03 sec)
+[2023.06.19-19.17.50:267][ 77]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled   12 times, average 1.65 sec, max 6.28 sec, min 1.19 sec)
+[2023.06.19-19.17.50:268][ 77]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.06.19-19.17.50:268][ 77]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 4.26% of total time (compiled   21 times, average 1.46 sec, max 5.57 sec, min 0.98 sec)
+[2023.06.19-19.17.50:268][ 77]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 4.08% of total time (compiled   20 times, average 1.47 sec, max 5.94 sec, min 1.11 sec)
+[2023.06.19-19.17.50:268][ 77]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 4.02% of total time (compiled   21 times, average 1.38 sec, max 5.91 sec, min 1.03 sec)
+[2023.06.19-19.17.50:268][ 77]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy - 3.88% of total time (compiled   21 times, average 1.33 sec, max 1.82 sec, min 1.09 sec)
+[2023.06.19-19.17.50:268][ 77]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 3.87% of total time (compiled   21 times, average 1.33 sec, max 5.13 sec, min 1.00 sec)
+[2023.06.19-19.17.50:268][ 77]LogShaderCompilers: Display: ================================================
+[2023.06.19-19.18.23:804][ 60]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.19-19.18.23:829][ 60]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.06.19-19.18.23:829][ 60]LogPlayLevel: [PlayLevel] Compiling FPS_CHARACTER before play...
+[2023.06.19-19.18.24:011][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.06.19-19.18.24:012][ 60]LogPlayLevel: PlayLevel: Blueprint regeneration took 182 ms (1 blueprints)
+[2023.06.19-19.18.24:012][ 60]PIE: New page: PIE session: Demo_Scene (19 Jun 2023, 23:18:24)
+[2023.06.19-19.18.24:013][ 60]LogPlayLevel: Creating play world package: /Game/ModularBuildingSet/UEDPIE_0_Demo_Scene
+[2023.06.19-19.18.24:562][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.549410s)
+[2023.06.19-19.18.24:562][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ModularBuildingSet/Demo_Scene.Demo_Scene to /Game/ModularBuildingSet/UEDPIE_0_Demo_Scene.Demo_Scene (0.549488s)
+[2023.06.19-19.18.24:562][ 60]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.06.19-19.18.24:562][ 60]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.19-19.18.24:563][ 60]LogAIModule: Creating AISystem for world Demo_Scene
+[2023.06.19-19.18.24:564][ 60]LogPlayLevel: PIE: World Init took: (0.002236s)
+[2023.06.19-19.18.24:591][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.06.19-19.18.24:591][ 60]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.06.19-19.18.24:591][ 60]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.19-19.18.24:591][ 60]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.19-19.18.24:591][ 60]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.19-19.18.24:591][ 60]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.19-19.18.24:591][ 60]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.19-19.18.24:591][ 60]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.19-19.18.24:591][ 60]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.19-19.18.24:591][ 60]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.19-19.18.24:592][ 60]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.19-19.18.24:592][ 60]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.19-19.18.24:592][ 60]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.19-19.18.24:613][ 60]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.19-19.18.24:628][ 60]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (4- USB PnP Audio Device)
+[2023.06.19-19.18.24:629][ 60]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.19-19.18.24:629][ 60]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.19-19.18.24:629][ 60]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.19-19.18.24:630][ 60]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.06.19-19.18.24:630][ 60]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.06.19-19.18.24:631][ 60]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.06.19-19.18.24:631][ 60]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.06.19-19.18.24:631][ 60]LogInit: FAudioDevice initialized.
+[2023.06.19-19.18.24:631][ 60]LogAudio: Display: Audio Device (ID: 4) registered with world 'Demo_Scene'.
+[2023.06.19-19.18.24:645][ 60]LogLoad: Game class is 'GameModeBase'
+[2023.06.19-19.18.24:885][ 60]LogWorld: Bringing World /Game/ModularBuildingSet/UEDPIE_0_Demo_Scene.Demo_Scene up for play (max tick rate 0) at 2023.06.19-21.18.24
+[2023.06.19-19.18.24:887][ 60]LogWorld: Bringing up level for play took: 0.241189
+[2023.06.19-19.18.24:888][ 60]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.06.19-19.18.24:893][ 60]LogScript: Warning: Accessed None trying to read property MatineeActor_1_ExecuteUbergraph_Demo_Scene_RefProperty
+	Demo_Scene_C /Game/ModularBuildingSet/UEDPIE_0_Demo_Scene.Demo_Scene:PersistentLevel.Demo_Scene_C_1
+	Function /Game/ModularBuildingSet/Demo_Scene.Demo_Scene_C:ExecuteUbergraph_Demo_Scene:0017
+[2023.06.19-19.18.24:893][ 60]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property MatineeActor_1_ExecuteUbergraph_Demo_Scene_RefProperty". Node:  Play Graph:  EventGraph Function:  Execute Ubergraph Demo Scene Blueprint:  Demo_Scene
+[2023.06.19-19.18.24:893][ 60]PIE: Server logged in
+[2023.06.19-19.18.24:894][ 60]PIE: Play in editor total start time 1.086 seconds.
+[2023.06.19-19.18.27:189][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-19.18.27:189][211]LogWorld: BeginTearingDown for /Game/ModularBuildingSet/UEDPIE_0_Demo_Scene
+[2023.06.19-19.18.27:193][211]LogWorld: UWorld::CleanupWorld for Demo_Scene, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-19.18.27:220][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-19.18.27:235][211]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.19-19.18.27:245][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-19.18.27:268][211]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.19-19.18.27:298][211]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.06.19-19.18.27:299][211]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.06.19-19.18.27:302][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-19.18.27:352][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.06.19-19.18.27:506][212]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.06.19-19.18.32:545][487]LogSlate: Window 'Message Log' being destroyed
+[2023.06.19-19.18.32:549][487]LogSlate: Window 'Message Log' being destroyed
+[2023.06.19-19.18.57:717][289]BlueprintLog: New page: Compile FPS_CHARACTER
+[2023.06.19-19.18.57:759][289]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.06.19-19.19.03:828][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Class/FPS_CHARACTER" FILE="../../../../../../repo/Rok2_FPS-AL_HK/StartingProject/Content/Class/FPS_CHARACTER.uasset" SILENT=true
+[2023.06.19-19.19.03:910][708]LogSavePackage: Moving output files for package: /Game/Class/FPS_CHARACTER
+[2023.06.19-19.19.03:910][708]LogSavePackage: Moving '../../../../../../repo/Rok2_FPS-AL_HK/StartingProject/Saved/FPS_CHARACTER9C68C34642B736E14FC7EA8CBC555FFA.tmp' to '../../../../../../repo/Rok2_FPS-AL_HK/StartingProject/Content/Class/FPS_CHARACTER.uasset'
+[2023.06.19-19.19.03:922][708]AssetCheck: New page: Asset Save: FPS_CHARACTER
+[2023.06.19-19.19.03:922][708]LogContentValidation: Display: Validating Blueprint /Game/Class/FPS_CHARACTER.FPS_CHARACTER
+[2023.06.19-19.19.05:349][810]LogSlate: Window 'FPS_CHARACTER' being destroyed
+[2023.06.19-19.19.05:355][810]LogSlate: Window 'FPS_CHARACTER' being destroyed
+[2023.06.19-19.19.05:419][810]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-19.19.05:419][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-19.19.06:123][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Class/FPS_CHARACTER" FILE="../../../../../../repo/Rok2_FPS-AL_HK/StartingProject/Content/Class/FPS_CHARACTER.uasset" SILENT=true
+[2023.06.19-19.19.06:125][858]LogSavePackage: Moving output files for package: /Game/Class/FPS_CHARACTER
+[2023.06.19-19.19.06:126][858]LogSavePackage: Moving '../../../../../../repo/Rok2_FPS-AL_HK/StartingProject/Saved/FPS_CHARACTERADE233124EDEF71E841A778121FB8997.tmp' to '../../../../../../repo/Rok2_FPS-AL_HK/StartingProject/Content/Class/FPS_CHARACTER.uasset'
+[2023.06.19-19.19.06:133][858]AssetCheck: New page: Asset Save: FPS_CHARACTER
+[2023.06.19-19.19.06:133][858]LogContentValidation: Display: Validating Blueprint /Game/Class/FPS_CHARACTER.FPS_CHARACTER
